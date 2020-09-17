@@ -1,11 +1,11 @@
-class initialsation:
+class initialisation:
     '''
-    In this class will be method with initialsation
+    In this class will be method with initialisation
     '''
 
     def make_initialisation(self):
         '''
-        Method with initialsation
+        Method with initialisation
         '''
 
         name = input("Введите, пожалуйста, свое имя: ")
