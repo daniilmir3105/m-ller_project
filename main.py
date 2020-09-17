@@ -3,3 +3,5 @@ import result
 import init_in_prog
 import scoring_func
 
+init = init_in_prog.initialisation
+init.make_initialisation()
