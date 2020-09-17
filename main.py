@@ -9,12 +9,10 @@ init.make_initialisation()
 getting = get_info.getting_information
 N = getting.get_number_of_iteration()
 
-# print(N)
 base = scoring_func.scoring_class
 recur = base.rec()
 
 flt = base.floatpt(N=N)
-# print(flt)
 fxd = base.fixedpt(N=N)
 
 if __name__ == "__main__":
