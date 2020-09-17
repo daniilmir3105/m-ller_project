@@ -3,7 +3,7 @@ class getting_information:
     This is a class, that have a method, that will become and return number of iterations
     '''
 
-    def get_number_of_iteration(self):
+    def get_number_of_iteration():
         '''
         Method, that will become and return number of iterations
         '''

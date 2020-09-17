@@ -8,8 +8,8 @@ class initialisation:
         Method with initialisation
         '''
 
-        name = input("Введите, пожалуйста, свое имя: ")
+        name = input("Please, enter your name: ")
 
-        print("Приветствую, " + name +
-            ", вы вошли в программу, котороая позволяет расчитывать рекуррентное соотношение Мюллера.")
-        print("Рекуррентное соотношение Мюллера: x=f(y,z)=108-((815-1500/z)/y).")
+        print("Greatings, " + name +
+            ", you are now in a program that calculates Mueller's recurrence.")
+        print("Muller's recurrence relation: x=f(y,z)=108-((815-1500/z)/y).")
