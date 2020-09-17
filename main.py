@@ -18,3 +18,4 @@ fxd = base.fixedpt(N=N)
 if __name__ == "__main__":
     final = result.final_result
     final.returning_result(N=N, arr_1=flt, arr_2=fxd)
+    input()
