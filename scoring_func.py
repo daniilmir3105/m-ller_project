@@ -7,7 +7,7 @@ class base_class(metaclass=ABCMeta):
     '''
 
     @abstractmethod
-    def rec(y=1, z=1):
+    def rec(y, z):
         return 108 - ((815 - 1500 / z) / y)
 
 class scoring_class(base_class):
@@ -15,22 +15,22 @@ class scoring_class(base_class):
     This is a class, that must score our results.
     '''
 
-    def floatpt(N, func):
+    def floatpt(N):
         '''
         This method will score our result in float datatype.
         '''
         
         x = [4, 4.25]
         for i in range(2, N + 1):
-            x.append(func(x[i - 1], x[i - 2]))
+            x.append(scoring_class.rec(x[i - 1], x[i - 2]))
         return x
 
-    def fixedpt(N, func):
+    def fixedpt(N):
         '''
         This method will score our result in decimal datatype.
         '''
 
         x = [Decimal(4), Decimal(17) / Decimal(4)]
         for i in range(2, N + 1):
-            x.append(func(x[i - 1], x[i - 2]))
+            x.append(scoring_class.rec(x[i - 1], x[i - 2]))
         return x
