@@ -4,7 +4,7 @@ class getting_information:
     that will become and return number of iterations
     '''
 
-    def get_number_of_iteration():
+    def get_number_of_iteration(self):
         '''
         Method, that will become and return number of iterations
         '''

@@ -3,7 +3,7 @@ class final_result:
     This class have a method, that will return our result in a simple table.
     '''
 
-    def returning_result(N, arr_1, arr_2):
+    def returning_result(self, N, arr_1, arr_2):
         '''
         Method, that will return our result in a simple table.
         '''

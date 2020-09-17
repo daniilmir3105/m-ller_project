@@ -3,7 +3,7 @@ class initialisation:
     In this class will be method with initialisation
     '''
 
-    def make_initialisation():
+    def make_initialisation(self):
         '''
         Method with initialisation
         '''
